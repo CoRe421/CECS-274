@@ -39,14 +39,6 @@ public class RecipeBook {
     }
 
     /**
-     * Creates an empty recipebook with a length of 4
-     */
-    public RecipeBook() {
-        mRecipeBook = new Recipe[4];
-        mCount = 0;
-    }
-
-    /**
      * Gets the amount of recipes in the array.
      */
     public int getRecipeCount() {
